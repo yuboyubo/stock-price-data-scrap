@@ -84,3 +84,5 @@ Quit the app!!
 
 ```
 
+## How to run the test script:
+Run the test script: ```python3 test.py```
