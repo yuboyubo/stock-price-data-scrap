@@ -64,21 +64,20 @@ class ScrapApp:
             return False
         return True
 
-    def check_quit(self):
+    def check_quit(self, quit):
         """
             Check whether quit the app or not
         
+        Parameter:
+            quit (str): the input quit
+
         Returns:
             (bool): Returns True if quit the app, False otherwise
         """
-        print("\nDo you want to continue (Y/N): ", end = "")
-        quit = input().upper()
-        while quit != "Y" and quit != "N":
-            print("Wrong input, please enter again: ", end = "")
-            quit = input().upper()
-        if quit == "N":
+        if quit.upper() == "Y":
             return True
-        return False
+        else:
+            return False
 
     def get_stock_price_data(self, symbol, date):
         """
@@ -176,7 +175,13 @@ class ScrapApp:
             self.display_price_data(price_data, symbol, date)
 
             # end the app or not
-            if self.check_quit() == True:
+            print("\nDo you want to quit (Y/N): ", end = "")
+            quit = input()
+            while quit.upper() != "Y" and quit.upper() != "N":
+                print("Wrong input, please enter again: ", end = "")
+                quit = input()
+
+            if self.check_quit(quit) == True:
                 break
         
         # quit the app message
