@@ -6,7 +6,6 @@ class ScrapApp:
     """
         ScarpApp class which is used to scap the stock's high, low, open 
         and close prices for a given date
-        
     """
 
     def __init__(self):
