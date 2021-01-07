@@ -9,7 +9,21 @@ This work is fully tested with Python 3.6.9.
 Install requirements in terminal, please run: ```pip3 install -Ur requirements.txt```
 
 ## How to test the application:
-Run the test script: ```python3 test.py```
+Run the test script: ```python3 -m unittest -v test.py  -b```
+
+Example output:
+
+```
+test_check_date (test.ScrapAppTest) ... ok
+test_check_quit (test.ScrapAppTest) ... ok
+test_check_symbol (test.ScrapAppTest) ... ok
+test_get_stock_price_data (test.ScrapAppTest) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 14.578s
+
+OK
+```
 
 ## How to run the application:
 Run the main application: ```python3 main.py```
