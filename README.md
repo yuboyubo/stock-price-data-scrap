@@ -26,7 +26,7 @@ OK
 ```
 
 ## How to run the application:
-Run the main application: ```python3 main.py```
+Run the main application: ```python3 app.py```
 
 Example output:
 
