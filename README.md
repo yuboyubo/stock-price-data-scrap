@@ -20,7 +20,7 @@ test_check_symbol (test.ScrapAppTest) ... ok
 test_get_stock_price_data (test.ScrapAppTest) ... ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 14.578s
+Ran 4 tests in 9.721s
 
 OK
 ```
