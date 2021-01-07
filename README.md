@@ -8,6 +8,9 @@ This work is fully tested with Python 3.6.9.
 
 Install requirements in terminal, please run: ```pip3 install -Ur requirements.txt```
 
+## How to test the application:
+Run the test script: ```python3 test.py```
+
 ## How to run the application:
 Run the main application: ```python3 main.py```
 
@@ -83,6 +86,3 @@ No such stock tick symobl, please enter again or quit(q): q
 Quit the app!!
 
 ```
-
-## How to run the test script:
-Run the test script: ```python3 test.py```
