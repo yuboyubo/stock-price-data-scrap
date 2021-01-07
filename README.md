@@ -43,7 +43,7 @@ Close:  792.79
 High:   800.00
 Low:    786.86
 
-Do you want to continue (Y/N): Y
+Do you want to quit (Y/N): N
 
 Enter the stock tick symbol (e.g. ISRG): ISRG
 
@@ -55,7 +55,7 @@ Close:  805.05
 High:   811.39
 Low:    789.39
 
-Do you want to continue (Y/N): Y
+Do you want to quit (Y/N): N
 
 Enter the stock tick symbol (e.g. ISRG): ISRG
 
@@ -63,7 +63,7 @@ Enter the date to look for (e.g. 01/13/2021): 01/01/2021
 
 There is no price information for ISRG at 01/01/2021
 
-Do you want to continue (Y/N): Y
+Do you want to quit (Y/N): N
 
 Enter the stock tick symbol (e.g. ISRG): ILMN
 
@@ -75,7 +75,7 @@ Close:  376.55
 High:   380.57
 Low:    365.00
 
-Do you want to continue (Y/N): Y
+Do you want to quit (Y/N): N
 
 Enter the stock tick symbol (e.g. ISRG): ILMN
 
@@ -90,7 +90,7 @@ Close:  364.09
 High:   370.34
 Low:    360.76
 
-Do you want to continue (Y/N): Y
+Do you want to quit (Y/N): N
 
 Enter the stock tick symbol (e.g. ISRG): incorrect
 Stock Tick Symbol: Not Found
